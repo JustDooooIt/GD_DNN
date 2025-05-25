@@ -1,3 +1,0 @@
-D:/Godot/gd_dnn/build/CMakeFiles/gd_tiny_dnn.dir
-D:/Godot/gd_dnn/build/CMakeFiles/ALL_BUILD.dir
-D:/Godot/gd_dnn/build/CMakeFiles/ZERO_CHECK.dir
