@@ -1,0 +1,10 @@
+^D:\GODOT\GD_DNN\CMAKELISTS.TXT
+setlocal
+D:\cmake\bin\cmake.exe -SD:/Godot/gd_dnn -BD:/Godot/gd_dnn/build --check-stamp-file D:/Godot/gd_dnn/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
